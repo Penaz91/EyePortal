@@ -1,0 +1,11 @@
+name: eyePortal
+main: eyePortal.Main
+version: 0.0.1-SNAPSHOT
+
+commands:
+    epreload:
+        description: Reloads The configuration
+        usage: /epreload
+        aliases: []
+        permission: eyeportal.reload
+        permission-message: Sorry, but you don't have the permission to execute this command
