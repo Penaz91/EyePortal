@@ -1,2 +1,5 @@
-block: "EYE_OF_ENDER"
+# Use the name of the block for a standard material-based search (doesn't count lore
+# or enchants)
+# Use ###ITEM### for specific item search. See /epgetitem and /epsetitem
+block: "###ITEM###"
 quantity: 1

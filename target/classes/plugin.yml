@@ -9,3 +9,15 @@ commands:
         aliases: []
         permission: eyeportal.reload
         permission-message: Sorry, but you don't have the permission to execute this command
+    epsetitem:
+        description: Sets the Item necessary to teleport via EndPortal
+        usage: /epsetitem
+        aliases: []
+        permission: eyeportal.setitem
+        permission-message: Sorry, but you don't have the permission to execute this command
+    epgetitem:
+        description: Puts an instance of the item necessary to teleport via enderPortal in your inventory
+        usage: /epgetitem
+        aliases: []
+        permission: eyeportal.getitem
+        permission-message: Sorry, but you don't have the permission to execute this command
