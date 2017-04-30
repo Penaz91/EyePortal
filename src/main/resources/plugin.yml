@@ -21,3 +21,15 @@ commands:
         aliases: []
         permission: eyeportal.getitem
         permission-message: Sorry, but you don't have the permission to execute this command
+    epsetritem:
+        description: Sets the Item replaced when teleported via EndPortal
+        usage: /epsetitem
+        aliases: []
+        permission: eyeportal.setitem
+        permission-message: Sorry, but you don't have the permission to execute this command
+    epgetritem:
+        description: Puts an instance of the Item replaced when teleported via enderPortal in your inventory
+        usage: /epgetitem
+        aliases: []
+        permission: eyeportal.getitem
+        permission-message: Sorry, but you don't have the permission to execute this command

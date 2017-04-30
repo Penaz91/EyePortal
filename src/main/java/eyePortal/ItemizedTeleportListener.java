@@ -13,6 +13,9 @@ public class ItemizedTeleportListener implements Listener{
 			Inventory invo = event.getPlayer().getInventory();
 			if (invo.containsAtLeast(Main.it, num)){
 				invo.removeItem(Main.it);
+				if (Main.replace){
+					invo.addItem(Main.rit);
+				}
 			}else{
 				event.setCancelled(true);
 			}

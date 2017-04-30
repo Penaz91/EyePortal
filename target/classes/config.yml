@@ -1,5 +1,9 @@
 # Use the name of the block for a standard material-based search (doesn't count lore
 # or enchants)
-# Use ###ITEM### for specific item search. See /epgetitem and /epsetitem
+# Use ###ITEM### for specific item search or replacement. See /epgetitem, /epsetitem, /epgetritem and /epsetritem
+# Method can be "delete" or "replace"
+method: "replace"
 block: "###ITEM###"
+replaceblock: "###ITEM###"
 quantity: 1
+replacequantity: 1
